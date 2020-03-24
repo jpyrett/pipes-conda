@@ -1,7 +1,6 @@
 import numpy as np
 
 def foo():
-    print("inside foo3!!")
     a = np.array([
         [1, 0, 1],
         [1, 1, 1],
