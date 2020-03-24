@@ -1,0 +1,18 @@
+{
+    "num_workers": 1,
+    "cluster_name": "app-cluster",
+    "spark_version": "6.4.x-scala2.11",
+    "spark_conf": {},
+    "node_type_id": "Standard_DS3_v2",
+    "driver_node_type_id": "Standard_DS3_v2",
+    "ssh_public_keys": [],
+    "custom_tags": {},
+    "spark_env_vars": {
+        "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+    },
+    "autotermination_minutes": 120,
+    "enable_elastic_disk": true,
+    "cluster_source": "UI",
+    "init_scripts": [],
+    "cluster_id": "0324-023125-scrod811"
+}
