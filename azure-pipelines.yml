@@ -1,4 +1,9 @@
 jobs:
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
 - job:
   displayName: From environment.yml
   pool:
@@ -16,3 +21,4 @@ jobs:
       pip install pytest pytest-azurepipelines
       pytest
     displayName: pytest
+    
