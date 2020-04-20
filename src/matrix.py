@@ -8,4 +8,4 @@ def foo():
     ])
     print(  a * np.identity(3)  )
     return a * np.identity(3)
-© 2020 GitHub, Inc.
+
