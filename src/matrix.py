@@ -1,11 +1,11 @@
 import numpy as np
 
 def foo():
-    print("inside foo5")
     a = np.array([
         [1, 0, 1],
         [1, 1, 1],
         [0, 0, 0]
     ])
-
+    print(  a * np.identity(3)  )
     return a * np.identity(3)
+© 2020 GitHub, Inc.
